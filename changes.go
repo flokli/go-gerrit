@@ -449,7 +449,7 @@ type ChangeInfo struct {
 	Deletions              int                           `json:"deletions"`
 	TotalCommentCount      int                           `json:"total_comment_count,omitempty"`
 	UnresolvedCommentCount int                           `json:"unresolved_comment_count,omitempty"`
-	Number                 int                           `json:"_number"`
+	Number                 int                           `json:"number"`
 	Owner                  AccountInfo                   `json:"owner"`
 	Actions                map[string]ActionInfo         `json:"actions,omitempty"`
 	Labels                 map[string]LabelInfo          `json:"labels,omitempty"`
